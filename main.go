@@ -22,10 +22,7 @@ type User struct {
 	DateAdded time.Time `json:"date_added"`
 }
 
-type UserInput struct {
-	Name string `json:"name"`
-	Age  int    `json:"age"`
-}
+
 
 // JSON response helper functions
 
